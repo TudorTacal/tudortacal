@@ -3,4 +3,4 @@ $(document).ready(function() {
     var element = document.getElementById('test');
     element.style.color = red;
   }
-}
+)}
