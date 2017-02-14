@@ -1,7 +1,23 @@
 .font {
   font-family: 'Josefin Sans';
 }
-body {
-  background-repeat: no-repeat;
-  background-image: url("profile.jpg")
+#image {
+  float: right;
+  max-height: 100%;
+  max-width: 80%;
+}
+
+#name {
+  width: 50%;
+
+}
+
+#wrapper {
+  display: inline-block;
+  clear: left;
+}
+
+.description {
+  float: left;
+  width: 30%;
 }
