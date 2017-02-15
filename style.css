@@ -1,5 +1,5 @@
 html {
-  background: url('profile copy.jpg') no-repeat center center fixed;
+  background: url('./assets/profile copy.jpg') no-repeat center center fixed;
   font-family: "Josefin Sans";
   margin-left: 200px;
   margin-top: 80px;
@@ -28,4 +28,41 @@ html {
   float: left;
   width: 30%;
   font-size: 1.5em;
+}
+
+
+.github {
+  display: block;
+  width: 50px;
+  height: 41px;
+  margin: 0 auto;
+  background: transparent url('./assets/github copy.png') center center no-repeat;
+  background-size: 100%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.linkedin {
+  display: block;
+  width: 50px;
+  height: 41px;
+  margin: 0 auto;
+  background: transparent url('./assets/linkedin copy.png') center center no-repeat;
+  background-size: 100%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.twitter {
+  display: block;
+  width: 50px;
+  height: 41px;
+  margin: 0 auto;
+  background: transparent url('./assets/icon_twitter copy.png') center center no-repeat;
+  background-size: 100%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
