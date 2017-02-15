@@ -1,7 +1,7 @@
 html {
   background: url('profile copy.jpg') no-repeat center center fixed;
   font-family: "Josefin Sans";
-  margin: 210px;
+  margin: 110px;
 }
 
 
@@ -20,11 +20,7 @@ html {
 }
 
 #wrapper {
-  /*margin-top: 100px;*/
   display: inline-block;
-  clear: left;
-
-
 }
 
 .description {
