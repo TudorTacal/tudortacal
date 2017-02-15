@@ -5,29 +5,32 @@ html {
   margin-top: 80px;
 }
 
-
-
 #image {
   float: right;
   max-height: 100%;
   max-width: 80%;
-
 }
 
 #name {
   width: 30%;
   font-size: 1.8em;
-
 }
 
 #wrapper {
   display: inline-block;
+
 }
 
 .description {
   float: left;
   width: 30%;
   font-size: 1.5em;
+}
+
+#links {
+  display: flex;
+  float: left;
+  clear: left;
 }
 
 
