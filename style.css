@@ -3,7 +3,12 @@ html {
   font-family: "Josefin Sans";
   margin-left: 200px;
   margin-top: 60px;
-  line-height: 1.4
+  line-height: 1.4;
+}
+
+.mobile-description {
+  display: none;
+
 }
 
 #image {
@@ -19,7 +24,6 @@ html {
 
 #wrapper {
   display: inline-block;
-
 }
 
 .description {
@@ -59,7 +63,6 @@ html {
   white-space: nowrap;
   overflow: hidden;
   margin-right: 35px;
-
 }
 
 .twitter {
@@ -72,4 +75,86 @@ html {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width:600px) {
+
+  html {
+    background: none;
+    font-family: "Josefin Sans";
+    line-height: 1.4;
+    margin: auto;
+    text-align: center;
+  }
+
+  #name {
+    display: inline;
+    float: center;
+    font-size: 1.4em;
+    width: 100;
+    margin: auto;
+    border: none;
+  }
+
+  #wrapper {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+  #links {
+    display: flex;
+    float: none;
+
+  }
+
+  .mobile-description {
+    display:inline-block;
+    font-size: 1.2em;
+
+  }
+  .description {
+    display: none;
+  }
+
+  .github {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: transparent url('./assets/github3.png') center center no-repeat;
+    background-size: 100%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 15px;
+  }
+
+  .linkedin {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: transparent url('./assets/linkedin copy.png') center center no-repeat;
+    background-size: 100%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 15px;
+  }
+
+  .twitter {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: transparent url('./assets/icon_twitter copy.png') center center no-repeat;
+    background-size: 100%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
 }
