@@ -79,7 +79,7 @@ html {
 
 /*Media Queries*/
 
-@media only screen and (max-width:600px) {
+@media screen and (max-width:600px) {
 
   html {
     background: none;
@@ -112,7 +112,7 @@ html {
 
   .mobile-description {
     display:inline-block;
-    font-size: 1.2em;
+    font-size: 1.3em;
 
   }
   .description {
