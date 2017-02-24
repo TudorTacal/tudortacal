@@ -41,7 +41,7 @@ html {
 
 #portfolio {
   float: right;
-  margin-right: 130px;
+  margin-right: 180px;
   font-size: 1.5em;
 }
 
@@ -129,6 +129,10 @@ a:visited {
 
   }
 
+  #portfolio {
+    display: none;
+  }
+
   .mobile-description {
     display:inline-block;
     font-size: 1.3em;
@@ -175,5 +179,6 @@ a:visited {
     white-space: nowrap;
     overflow: hidden;
   }
+
 
 }
