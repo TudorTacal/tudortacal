@@ -10,6 +10,9 @@ html {
   display: none;
 
 }
+#logo {
+  display:none;
+}
 
 #image {
   float: right;
@@ -55,7 +58,6 @@ a:hover {
 a:visited {
   color: 4099FF;
 }
-
 
 .github {
   display: block;
@@ -131,7 +133,18 @@ a:visited {
 
   #portfolio {
     display: none;
+    height: 50px;
   }
+
+  #logo {
+    display:block;
+    background: url('./assets/logo.png') center center no-repeat;
+    height: 283px;
+    margin-bottom: -80px;
+    margin-top: -100px;
+  }
+
+
 
   .mobile-description {
     display:inline-block;
